@@ -327,7 +327,7 @@ open class ExampleBaseButtonBarPagerTabStripViewController: BaseButtonBarPagerTa
                 bundle = resourcesBundle
             }
         }
-        
+
         buttonBarItemSpec = .nibFile(nibName: "ButtonCell", bundle: bundle, width: { [weak self] (childItemInfo) -> CGFloat in
             let label = UILabel()
             label.translatesAutoresizingMaskIntoConstraints = false
